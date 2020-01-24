@@ -5,7 +5,7 @@ def pytest_addoption(parser):
     """Adding command line option"""
 
     parser.addoption("--env", action="store", default="test",
-                     help="my option: branch/test/stage")
+                     help="my option: test/stage/prod")
 
 
 def pytest_configure(config):
